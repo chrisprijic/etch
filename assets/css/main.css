@@ -273,9 +273,21 @@ main#content section.footnotes {
 }
 
 footer#footer {
-    font-size: 14px;
-    font-size: 1.4rem;
+    font-size: 12px;
+    font-size: 1.0rem;
     font-weight: 400;
     color: #b3b3b3;
     margin: 40px 0;
+    text-align: center;
+}
+
+footer#footer a {
+    color: #007dfa;
+    text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    footer#footer a {
+        color: #00b1ed;
+    }
 }
