@@ -17,6 +17,10 @@ body {
     line-height: 1.6;
 }
 
+table {
+    width: 100%;
+}
+
 header#banner {
     margin: 25px 0;
 }
